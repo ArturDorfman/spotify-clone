@@ -22,6 +22,8 @@ declare module '@vue/runtime-core' {
     ExampleViewComponent: typeof import('./../src/views/example-view/components/ExampleViewComponent.vue')['default']
     IconCar: typeof import('~icons/icon/car')['default']
     IconCart: typeof import('~icons/icon/cart')['default']
+    LanguageSwitcher: typeof import('./../src/components/LanguageSwitcher.vue')['default']
+    NavigationIcons: typeof import('./../src/views/SideBar/components/NavigationIcons.vue')['default']
     Portal: typeof import('./../src/plugins/portal/Portal.vue')['default']
     PortalTarget: typeof import('./../src/plugins/portal/PortalTarget.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

@@ -7,6 +7,10 @@ module.exports = {
   green: colors.green,
   orange: colors.orange,
 
+  sidebar: '#000000',
+  header: '#101010',
+  navigation: '#b3b3b3',
+
   // todo: with the following code you can use element colors
   primary: 'var(--el-color-primary)',
   success: 'var(--el-color-success)',

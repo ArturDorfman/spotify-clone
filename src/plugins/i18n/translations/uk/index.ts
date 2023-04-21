@@ -1,10 +1,10 @@
-import deLocale from 'element-plus/lib/locale/lang/de'
+import ukLocale from 'element-plus/lib/locale/lang/uk'
 import { generalTranslations as general } from './general.translation'
 import { validationTranslations as validation } from './validation.translation'
 
-export const de = {
-  [deLocale.name]: {
-    el: deLocale.el,
+export const uk = {
+  [ukLocale.name]: {
+    el: ukLocale.el,
 
     general,
     validation

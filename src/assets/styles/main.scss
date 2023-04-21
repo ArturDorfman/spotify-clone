@@ -3,6 +3,13 @@
 @import 'base';
 @import './utils/animations';
 @import './element-reset';
+@import '@/assets/fonts/index.scss';
 
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: CircularStd, sans-serif;
+  }
+}

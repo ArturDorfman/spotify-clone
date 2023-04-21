@@ -1,7 +1,7 @@
 import type { Plugin } from 'vue'
 import { createI18n } from 'vue-i18n'
 
-import { en, de } from './translations'
+import { en, uk } from './translations'
 
 const i18n = createI18n({
   legacy: false,
@@ -15,7 +15,7 @@ const i18n = createI18n({
         day: '2-digit'
       }
     },
-    de: {
+    uk: {
       short: {
         year: 'numeric',
         month: '2-digit',
@@ -26,7 +26,7 @@ const i18n = createI18n({
 
   messages: {
     ...en,
-    ...de
+    ...uk
   }
 })
 

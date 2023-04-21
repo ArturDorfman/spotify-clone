@@ -1,5 +1,10 @@
 export const routeNames = {
-  rootPage: 'rootPage',
+  root: 'root',
+  home: 'home',
+  search: 'search',
+  library: 'library',
+  createPlaylist: 'createPlaylist',
+  likedSongs: 'likedSongs',
 
   additionalDefaultLayoutRoute: 'additionalDefaultLayoutRoute',
   additionalNoLayoutRoute: 'additionalNoLayoutRoute'

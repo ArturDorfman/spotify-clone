@@ -1,7 +1,10 @@
 export const generalTranslations = {
-  generalKey: 'enGeneralKey',
-
   navigation: {
-    exampleView: 'home'
+    language: 'English',
+    home: 'Home',
+    search: 'Search',
+    library: 'Your Library',
+    createPlaylist: 'Create playlist',
+    likedSongs: 'Liked songs'
   }
 }

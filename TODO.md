@@ -1,0 +1,4 @@
+- Use CSS Container Queries
+- Use generic components when they are available
+- Use playwright for e2e tests
+- Use internationalization
